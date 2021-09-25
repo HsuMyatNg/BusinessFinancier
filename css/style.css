@@ -5,7 +5,20 @@
     #Aboutus #a4
     {
         width: 220px;
-        height: 220px;
+        height: 260px;
+        color: black;
+        margin-top: -30% !important;
+        box-shadow: 0 10px rgb(8, 190, 120);
+    }
+}
+@media (min-width: 1400px)  {
+    #Aboutus #a1,
+    #Aboutus #a2,
+    #Aboutus #a3,
+    #Aboutus #a4
+    {
+        width: 220px;
+        height: 260px;
         color: black;
         margin-top: -30% !important;
         box-shadow: 0 10px rgb(8, 190, 120);
@@ -15,7 +28,7 @@
  #Aboutus #a1,
 #Aboutus #a2{
     width: 220px;
-    height: 220px;
+    height: 260px;
     color: black;
     margin-top: -30% !important;
     box-shadow: 0 10px rgb(8, 190, 120);
@@ -24,7 +37,7 @@
 #Aboutus #a4
 {
     width: 220px;
-    height: 220px;
+    height: 260px;
     color: black;
     margin-top: 10px !important;
     box-shadow: 0 10px rgb(8, 190, 120);
@@ -39,21 +52,21 @@
 #Aboutus #a1
 {
     width: 220px;
-    height: 220px;
+    height: 260px;
     color: black;
     margin-top: -15% !important;
     box-shadow: 0 10px rgb(8, 190, 120);
 }
 #Aboutus #a2{
     width: 220px;
-    height: 220px;
+    height: 260px;
     color: black;
     margin-top: 10px !important;
     box-shadow: 0 10px rgb(8, 190, 120);
 }
 #Aboutus #a3{
     width: 220px;
-    height: 220px;
+    height: 260px;
     color: black;
     margin-top: 20px !important;
     box-shadow: 0 10px rgb(8, 190, 120);
@@ -61,11 +74,18 @@
 #Aboutus #a4
 {
     width: 220px;
-    height: 220px;
+    height: 260px;
     color: black;
     margin-top: 30px  !important;
     box-shadow: 0 10px rgb(8, 190, 120);
 }
+}
+header{
+    background-color: #f4f4f4;
+}
+.navbar-toggler{
+    box-shadow: none !important;
+    border: solid 2px rgb(8, 190, 120) !important;
 }
 #Home{
     background:linear-gradient(rgba(23, 23, 27, 0.6),rgba(24, 18, 31, 0.6));
@@ -103,44 +123,69 @@ h6{
     box-shadow: 10px rgb(8, 190, 120);
     border-radius: 30px 0 0 0  ;
 }
-.progress-bar{
+.progress-bar1{
     background-color: rgb(8, 190, 120) !important;
-    animation: progressbar-countdown;
-    animation-duration: 10s;
+    animation: progressbar-countdown1;
+    animation-duration: 5s;
 }
-.p1 {
-    animation: countdown;
-    animation: counter 5s linear infinite alternate;
-    counter-reset: count 0;
-    counter-reset: maxcount 100;
-  }
-  @keyframes countdown {
-    0% {
-      content: counter(count);
-    }
-    100% {
-        content: counter(maxcount);
-    }
-  }
-@keyframes progressbar-countdown {
+@keyframes progressbar-countdown1{
     0% {
       width: 0%;
     }
     100% {
-      width: 100%;
+      width: 86%;
+    }
+  }
+  .progress-bar2{
+    background-color: rgb(8, 190, 120) !important;
+    animation: progressbar-countdown2;
+    animation-duration: 5s;
+}
+@keyframes progressbar-countdown2{
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  .progress-bar3{
+    background-color: rgb(8, 190, 120) !important;
+    animation: progressbar-countdown3;
+    animation-duration: 5s;
+}
+@keyframes progressbar-countdown3{
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 78%;
+    }
+  }
+  .progress-bar4{
+    background-color: rgb(8, 190, 120) !important;
+    animation: progressbar-countdown4;
+    animation-duration: 5s;
+}
+@keyframes progressbar-countdown4{
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 83%;
     }
   }
 #Page .border{
-    width: 350px !important;
-    height: 420px !important;
+    width: 380px !important;
+    height: 450px !important;
     background-color: rgb(8, 190, 120);
     border-radius: 30px 0 0 0  ;
 }
 #Page .border img{
     padding-left: 2rem;
     padding-top: 2rem;
-    width: 380px;
-    height: 450px;
+    width: 400px;
+    height: 500px;
     border-radius: 0 0 30px 0;
 }
 .team img{
@@ -189,6 +234,6 @@ h6{
     color: gray;
 }
 #Contact{
-    background-color: #15113a;
+    background-color: #211d44;
     color: gray;
 }
