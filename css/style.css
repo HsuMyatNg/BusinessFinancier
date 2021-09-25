@@ -1,0 +1,194 @@
+@media (max-width: 1400px)  {
+    #Aboutus #a1,
+    #Aboutus #a2,
+    #Aboutus #a3,
+    #Aboutus #a4
+    {
+        width: 220px;
+        height: 220px;
+        color: black;
+        margin-top: -30% !important;
+        box-shadow: 0 10px rgb(8, 190, 120);
+    }
+}
+@media (max-width: 992px)  {
+    #Aboutus #a1,
+#Aboutus #a2{
+    width: 220px;
+    height: 220px;
+    color: black;
+    margin-top: -30% !important;
+    box-shadow: 0 10px rgb(8, 190, 120);
+}
+#Aboutus #a3,
+#Aboutus #a4
+{
+    width: 220px;
+    height: 220px;
+    color: black;
+    margin-top: 10px !important;
+    box-shadow: 0 10px rgb(8, 190, 120);
+}
+}
+@media (max-width: 768px){
+.aboutitems{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+#Aboutus #a1
+{
+    width: 220px;
+    height: 220px;
+    color: black;
+    margin-top: -15% !important;
+    box-shadow: 0 10px rgb(8, 190, 120);
+}
+#Aboutus #a2{
+    width: 220px;
+    height: 220px;
+    color: black;
+    margin-top: 10px !important;
+    box-shadow: 0 10px rgb(8, 190, 120);
+}
+#Aboutus #a3{
+    width: 220px;
+    height: 220px;
+    color: black;
+    margin-top: 20px !important;
+    box-shadow: 0 10px rgb(8, 190, 120);
+}
+#Aboutus #a4
+{
+    width: 220px;
+    height: 220px;
+    color: black;
+    margin-top: 30px  !important;
+    box-shadow: 0 10px rgb(8, 190, 120);
+}
+}
+#Home{
+    background:linear-gradient(rgba(23, 23, 27, 0.6),rgba(24, 18, 31, 0.6));
+    color: #ffffff;
+}
+#Home h1{
+    color: #ffffff;
+}
+#Home button{
+    color: #ffffff;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: none !important;
+    background-color: rgb(8, 190, 120);
+}
+
+h6{
+    color: rgb(8, 190, 120);
+}
+.btnview{
+    color: #ffffff;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: none !important;
+    background-color: rgb(8, 190, 120);
+}
+#Aboutus .border{
+
+    box-shadow: 10px rgb(8, 190, 120);
+    border-radius: 30px 0 0 0  ;
+}
+.progress-bar{
+    background-color: rgb(8, 190, 120) !important;
+    animation: progressbar-countdown;
+    animation-duration: 10s;
+}
+.p1 {
+    animation: countdown;
+    animation: counter 5s linear infinite alternate;
+    counter-reset: count 0;
+    counter-reset: maxcount 100;
+  }
+  @keyframes countdown {
+    0% {
+      content: counter(count);
+    }
+    100% {
+        content: counter(maxcount);
+    }
+  }
+@keyframes progressbar-countdown {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+#Page .border{
+    width: 350px !important;
+    height: 420px !important;
+    background-color: rgb(8, 190, 120);
+    border-radius: 30px 0 0 0  ;
+}
+#Page .border img{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    width: 380px;
+    height: 450px;
+    border-radius: 0 0 30px 0;
+}
+.team img{
+    border-radius: 30px 0 0 0;
+    width: 280px !important;
+    height: 280px !important;
+    cursor: pointer;
+}
+.input-group .btnsend{
+    color: #ffffff;
+    width: 60px;
+    height: 40px;
+    border-radius: 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: none !important;
+    background-color: rgb(8, 190, 120);
+}
+
+ #newsletter  {
+    background-color: #fff;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+	border-radius: 5px;
+    height: 230px !important;
+    margin-top: -90px;
+    
+}
+#Contact .btncall{
+    color: #ffffff;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: none !important;
+    background-color: rgb(8, 190, 120);
+}
+#newsletter p{
+    padding-left: 3rem !important;
+}
+#Contact h4{
+    color: #fff;
+}
+#Contact a{
+    text-decoration: none;
+    color: gray;
+}
+#Contact{
+    background-color: #15113a;
+    color: gray;
+}
